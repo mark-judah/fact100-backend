@@ -15,7 +15,7 @@
 </ul>
 
 <h2>Disclaimer</h2>
-<p>This project was experimental, testing Lumen's performance. However, Lumen is no longer supported due to Laravel Octane's improvements. For production use, consider Laravel.</p>
+<p>This project was experimental, testing Lumen's performance. However, Lumen is no longer supported due to Laravel performance improvements(laravel octane)</p>
 
 <h2>Setup Instructions</h2>
 
@@ -30,7 +30,7 @@
 <ol>
   <li>Clone the Fact100 backend repository:</li>
   <pre><code>
-  git clone https://github.com/your-username/fact100-backend.git
+  git clone https://github.com/mark-jk/fact100-backend.git
   </code></pre>
 
   <li>Navigate to the project directory:</li>

@@ -71,6 +71,7 @@
 
 <p>The Fact100 Lumen backend is now available at <code>http://localhost:8000</code>.</p>
 
-
+<h2>Frontend Integration</h2>
+<p>The backend communicates with the Laravel frontend, available at: <a href="https://github.com/mark-judah/fact100-frontend" target="_blank">Fact100 Frontend Repository</a>.</p>
 </body>
 </html>

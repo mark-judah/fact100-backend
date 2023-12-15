@@ -1,0 +1,12 @@
+[28-May-2022 19:37:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/factcom/backend.fact100.com/vendor/illuminate/container/Container.php:877
+Stack trace:
+#0 /home/factcom/backend.fact100.com/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct('config')
+#1 /home/factcom/backend.fact100.com/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('config')
+#2 /home/factcom/backend.fact100.com/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/factcom/backend.fact100.com/vendor/laravel/lumen-framework/src/helpers.php(42): Illuminate\Container\Container->make('config', Array)
+#4 /home/factcom/backend.fact100.com/vendor/laravel/lumen-framework/src/helpers.php(146): app('config')
+#5 /home/factcom/backend.fact100.com/bootstrap/app.php(16): config(Array)
+#6 /home/factcom/backend.fact100.com/public/index.php(14): require('/home/factcom/b...')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolut in /home/factcom/backend.fact100.com/vendor/illuminate/container/Container.php on line 879
